@@ -1,0 +1,70 @@
+body {
+    height: 300vh;
+    overflow-x: hidden;
+}
+
+#cic_box {
+    position: relative;
+    /* height: 100vh; */
+}
+
+.circle {
+    width: 560px;
+    height: 560px;
+    border-radius: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.gray_circle {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.black_circle {}
+
+.black_circle_bg {
+    /* position: fixed; */
+    inset: 0 0 0 0;
+    /* background: #444; */
+    height: 100vh;
+}
+
+
+.black_circle_02 {
+    position: fixed;
+    inset: 0 0 0 0;
+    width: unset;
+    height: unset;
+    transform: translate(0, 0);
+}
+
+#hori {
+
+    height: 100vh;
+    background: #ddd;
+    color: #fff;
+
+}
+
+#hori .page {
+    height: 100vh;
+}
+
+.page:nth-child(1) {
+    background: #333;
+}
+
+.page:nth-child(2) {
+    background: #444;
+}
+
+.page:nth-child(3) {
+    background: #555;
+}
+
+.page:nth-child(4) {
+    background: #666;
+}
